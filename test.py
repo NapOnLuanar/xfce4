@@ -22,13 +22,6 @@ os.system("sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd")
 
 print(f"User created and configured having username `{username}` and password `{password}`")
 
-
-!sudo apt-get -f install
-!sudo dpkg --install chrome-remote-desktop_current_amd64.deb
-!sudo apt-get install libu2f-udev
-
-
-
 #@title **RDP**
 #@markdown  It takes 4-5 minutes for installation
 
