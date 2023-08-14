@@ -14,6 +14,7 @@ Pin = 123456 #@param {type: "integer"}
 #@markdown Autostart Notebook in RDP
 Autostart = False #@param {type: "boolean"}
 
+username = "zachary"
 
 class CRD:
     def __init__(self, user):
