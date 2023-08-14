@@ -22,7 +22,7 @@ os.system("sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd")
 
 print(f"User created and configured having username `{username}` and password `{password}`")
 
-
+sudo apt-get install libu2f-udev
 
 
 #@title **RDP**
